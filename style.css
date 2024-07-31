@@ -1,7 +1,7 @@
 /* Import Qommodore-Regular font */
 @font-face {
-    font-family: 'Qommodore-Regular';
-    src: url('./fonts/Qommodore-Regular-Tiral.otf') format('opentype');
+    font-family: 'Qommodore-Regularr';
+    src: url('fonts/Qommodore-Regular-Trial.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,12 +14,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    height: 100svh;
     background-color: #ffffff;
 }
 
 .container {
     text-align: center;
     height: 100vh;
+    height: 100svh;
     width: 100vw;
     padding: 5px;
     display: flex;
@@ -36,7 +38,7 @@ header h1 {
 }
 
 main p {
-    font-family: "Qommodore-Regular";
+    font-family: 'Qommodore-Regularr';
     font-size: 1.5rem;
     line-height: 120%;
     max-width: 60ch;
